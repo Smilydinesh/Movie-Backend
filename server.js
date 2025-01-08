@@ -14,7 +14,7 @@ const app = express();
 
 // Enable CORS for the Netlify domain
 app.use(cors({
-  origin: 'https://serene-pithivier-0a0755.netlify.app', // Allow requests from your Netlify frontend
+  origin: 'https://thunderous-tanuki-60fad9.netlify.app', // Allow requests from your Netlify frontend
 }));
 app.use(cors({origin: "https://serene-pithivier-0a0755.netlify.app/"}))
 app.use(express.json());  
