@@ -86,7 +86,7 @@ const forgotPassword = async (req, res) => {
     await user.save();
 
     // Construct the reset password URL (replace with actual URL)
-    const resetPasswordUrl = `https://movie-backend-939z.onrender.com/user/reset-password/${resetToken}`;
+    const resetPasswordUrl = `https://movie-backend-1-s3at.onrender.com/user/reset-password/${resetToken}`;
 
     // Set up email configuration (nodemailer)
     const transporter = nodemailer.createTransport({
