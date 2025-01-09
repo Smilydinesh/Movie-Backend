@@ -16,7 +16,6 @@ const app = express();
 app.use(cors({
   origin: 'https://thunderous-tanuki-60fad9.netlify.app', // Allow requests from your Netlify frontend
 }));
-app.use(cors({origin: "https://serene-pithivier-0a0755.netlify.app/"}))
 app.use(express.json());  
 
 connectDB();
